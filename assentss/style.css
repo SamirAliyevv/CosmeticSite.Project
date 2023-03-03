@@ -130,4 +130,70 @@
   padding-top: 75px;
 
 }
+.aboutus{
+    height: 100px;
+}
+.section{
+
+    background-color: #ffff;
+}
+.aboutus>p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.made{
+    width: 30%;
+    background-color: rgb(236, 233, 233);
+    padding: 25px 15px;
+    text-align: center;
+}
+ .made :nth-child(2){
+    font-weight: bold;
+    font-family:'Syne',sans-serif;
+}   
+.madeinsidetext{
+    font-family:'Syne',sans-serif;
+    padding-top: 5px;
+    margin-top: 3px;
+}
+.for{
+    width: 30%;
+    background-color: rgb(236, 233, 233);
+    padding: 25px 15px;
+    text-align: center;
+}
+.for :nth-child(2){
+    font-weight: bold;
+    font-family:'Syne',sans-serif;
+}
+.forinsidetext{
+    font-family:'Syne',sans-serif;
+    padding-top: 5px;
+    margin-top: 3px;
+}
+.natural{
+    width: 30%;
+    background-color: rgb(236, 233, 233);
+    padding: 25px 15px;
+    text-align: center;
+}
+.natural :nth-child(2){
+    font-weight: bold;
+    font-family:'Syne',sans-serif;
+}
+.naturalinsidetext{
+    font-family:'Syne',sans-serif;
+    padding-top: 5px;
+    margin-top: 3px;
+}
 
