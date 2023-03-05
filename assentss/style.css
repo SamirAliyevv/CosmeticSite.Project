@@ -116,12 +116,12 @@
     padding-right: 40px;
     margin-top: 10px;
     border-color: red;
+      background-color: #ffff;
     transition: 0.7s;
 }
 
 .readmore:hover {
     scroll-behavior: smooth;
-    color: #ffff;
     background-color: red;
 }
 
@@ -233,13 +233,7 @@
     font-family: 'Syne', sans-serif;
 }
 
-.italic {
-    font-size: 25px;
-    margin-top: 20px;
-    font-family: 'EB Garamond', italic;
-    font-style: italic;
-    color: rgb(133, 133, 133);
-}
+
 
 .accordion {
     padding: 200px;
@@ -323,6 +317,50 @@
     font-weight: bold;
     font-family: 'Syne', sans-serif;
     padding-top: 30px;
+}
+
+.totaldiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    width: 100%;
+    padding: 5rem 0;
+}
+.left2{
+   
+     width: 50%;
+    
+}
+.img2{
+    width: 90%;
+    padding-left: 10rem;
+}
+.right2{
+   
+    width: 50%;
+    background-color: #ffff;
+}
+
+
+.thesame{
+    font-weight: bold;
+    font-family: 'Syne',sans-serif;
+    font-size: 2rem; 
+    }
+    .italic {
+        font-size: 25px;
+        margin-top: 20px;
+        font-family: 'EB Garamond', italic;
+        font-style: italic;
+        color: rgb(133, 133, 133);
+    }
+.right2 :nth-child(5){
+    padding-top: 10px;
+    font-family:  'Syne',sans-serif;
+    font-size: 17px;
+    word-spacing: 1px;
+    line-height: 25px;
 }
 
 
