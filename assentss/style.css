@@ -1,26 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar{
-    background-color:#ffff;
-     height: 80px;
-     display:flex;
-     justify-content: space-between;
-    
-     
-    
+.navbar {
+    background-color: #ffff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap :20px
-
-    
-
+    gap: 20px
 }
 
 .ulnav li {
@@ -31,113 +31,122 @@
     font-family: sans-serif;
     word-spacing: 10px;
 
-       
-    
-    
+
+
+
 }
 
-.img{
-    width:45px;
-    height: auto;
+.img {
+    width: 45px;
     margin-left: 30px;
     margin-top: 8px;
 }
 
-.logoname{
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
+.logoname {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
-.navmedia{
+.navmedia {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.platform i{
+.platform i {
     font-size: 25px;
 }
 
-.platform{
+.platform {
     display: flex;
     gap: 25px;
     margin-right: 14px;
 }
-.refreshing{
+
+.refreshing {
     background-image: url("https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/background9.jpg");
- width: 100%;
- height: 100vh;
-  background-size:cover ;
-  background-repeat:no-repeat;
-  opacity: 1;
-  display:flex;
-    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
 }
-.left{
-    
+
+.left {
+
     width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10rem;
 }
-.left p{
+
+.left p {
     font-size: 50px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     margin-top: 10px;
 
 
 }
-.left span{
+
+.left span {
     font-size: 25px;
     font-style: oblique;
     margin-top: 20px;
 
 }
-.left input{
-   padding: 10px;
-   padding-left: 60px;
-   padding-right: 60px;
-   margin-top: 10px;
-   border-color: red;
+
+.left input {
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+    border-color: red;
 
 }
-.readmore{
-   padding: 5px;
-   padding-left: 40px;
-   padding-right: 40px;
-   margin-top: 10px;
-   border-color: red;
-   transition: 0.7s;
+
+.readmore {
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    border-color: red;
+    transition: 0.7s;
 }
-.readmore:hover{
+
+.readmore:hover {
     scroll-behavior: smooth;
     color: #ffff;
     background-color: red;
 }
 
 
-.right{
+.right {
     width: 50%;
-   
-}
-.bottleimg{
-    width: 70%;
-  padding-top: 75px;
 
 }
-.aboutus{
+
+.bottleimg {
+    width: 70%;
+    padding-top: 75px;
+
+}
+
+.aboutus {
     height: 100px;
 }
-.section{
+
+.section {
 
     background-color: #ffff;
 }
-.aboutus>p{
+
+.aboutus>p {
     text-align: center;
     padding-top: 30px;
     font-size: 50px;
@@ -145,55 +154,180 @@
     font-weight: bold;
 
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 35px;
 }
-.made{
+
+.made {
     width: 30%;
     background-color: rgb(236, 233, 233);
     padding: 25px 15px;
     text-align: center;
 }
- .made :nth-child(2){
+
+.made :nth-child(2) {
     font-weight: bold;
-    font-family:'Syne',sans-serif;
-}   
-.madeinsidetext{
-    font-family:'Syne',sans-serif;
+    font-family: 'Syne', sans-serif;
+}
+
+.madeinsidetext {
+    font-family: 'Syne', sans-serif;
     padding-top: 5px;
     margin-top: 3px;
 }
-.for{
+
+.for {
     width: 30%;
     background-color: rgb(236, 233, 233);
     padding: 25px 15px;
     text-align: center;
 }
-.for :nth-child(2){
+
+.for :nth-child(2) {
     font-weight: bold;
-    font-family:'Syne',sans-serif;
+    font-family: 'Syne', sans-serif;
 }
-.forinsidetext{
-    font-family:'Syne',sans-serif;
+
+.forinsidetext {
+    font-family: 'Syne', sans-serif;
     padding-top: 5px;
     margin-top: 3px;
 }
-.natural{
+
+.natural {
     width: 30%;
     background-color: rgb(236, 233, 233);
     padding: 25px 15px;
     text-align: center;
 }
-.natural :nth-child(2){
+
+.natural :nth-child(2) {
     font-weight: bold;
-    font-family:'Syne',sans-serif;
+    font-family: 'Syne', sans-serif;
 }
-.naturalinsidetext{
-    font-family:'Syne',sans-serif;
+
+.naturalinsidetext {
+    font-family: 'Syne', sans-serif;
     padding-top: 5px;
     margin-top: 3px;
 }
+
+.totaldiv {
+    display: flex;
+  
+}
+
+.leftdiva {
+    padding: 200px;
+    width: 70%;
+
+}
+
+.syne {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Syne', sans-serif;
+}
+
+.italic {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'EB Garamond', italic;
+    font-style: italic;
+    color: rgb(133, 133, 133);
+}
+
+.accordion {
+    padding: 200px;
+    background-color: #ffff;
+
+
+
+}
+
+.safety {
+    padding: 30px;
+
+}
+
+.safety>p {
+    font-size: 30px;
+    font-family: 'Syne', sans-serif;
+    border-top: solid 1px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.quality {
+    padding: 30px;
+
+}
+
+.quality>p {
+    font-size: 30px;
+    font-family: 'Syne', sans-serif;
+    border-top: solid 1px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.vegan {
+    padding: 30px;
+
+}
+
+.vegan>p {
+    font-size: 30px;
+    font-family: sans-serif;
+    border-top: solid 1px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    border-bottom: solid 1px;
+}
+
+.accordionright {
+    width:50%;
+    padding-top: 25rem;
+
+
+}
+ .cosmetic{
+        width:70%;
+    }
+.informationcosmetic{
+    
+    width: 80%;
+    background-color: rgb(240, 238, 238);
+    padding: 150px;
+    margin: 0 auto;
+   text-align: center;
+} 
+.informationcosmetic :first-child{
+    font-size: 40px;
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+}
+.informationcosmetic :nth-child(2){
+    font-size: 40px;
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+}
+.lasttext {
+    color: rgb(81, 81, 81);    
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Syne', sans-serif;
+    padding-top: 30px;
+}
+
+
+
+
+    
+
 
